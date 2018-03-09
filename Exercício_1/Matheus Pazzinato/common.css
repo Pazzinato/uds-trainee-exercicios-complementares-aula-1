@@ -1,0 +1,88 @@
+
+.goleft{
+  float: left;
+}
+.goright{
+  float: right;
+}
+.clrleft{
+  clear: left;
+}
+.sidemenubord{
+  border-top: 1px solid white;
+}
+.sidemenu {
+  position: absolute;
+  left: 0px;
+  top: 268px;
+  background-color: #500501;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  width: 200px;
+  height: 220px;
+}
+.botmenubord{
+  display: inline-block;
+  font-size: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.botmenu{
+  padding-top: 30px;
+  clear: both;
+  text-align: center;
+  padding-bottom: 30px;
+  background-color: #500501;
+  color: white;
+}
+h2 {
+  padding-bottom: 50px;
+  font-weight: bold;
+  font-size: 150%;
+}
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: black;
+  color: white;
+}
+body {
+  background-color: #EBE1E1;
+}
+aside ul li{
+  padding: 20px;
+}
+aside ul a {
+  font-family: "Saira Semi Condensed";
+  color: inherit;
+  text-decoration: inherit;
+  font-size: 30px;
+  padding-top: 10px;
+}
+aside h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 35px;
+}
+footer ul a:hover {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+footer ul a{
+  font-family: "Saira Semi Condensed";
+  text-decoration: none;
+  color: inherit;
+  font-size: 25px;
+  padding-bottom: 50px;
+  marging-right: 70px;
+  marging-left: 30px;
+}
+aside ul li:hover {
+  background-color: #240100;
+  color: #FE9894;
+}

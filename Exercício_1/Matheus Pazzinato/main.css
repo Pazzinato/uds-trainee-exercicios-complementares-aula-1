@@ -1,0 +1,53 @@
+#biggerwidth{
+  width: 600px;
+}
+.diffont{
+  font-family: "Secular One";
+  display: inline-block;
+  font-weight: bold;
+}
+#textbox{
+  border: 3px solid black;
+  position: absolute;
+  left: 340px;
+  top: 180px;
+  padding-right: 700px;
+  padding-top: 600px;
+}
+.textcontrol{
+  font-family: "Architects Daughter";
+  font-size: 20px;
+  float: left;
+  width: 300px;
+  margin-left: 100px;
+  margin-right: auto;
+  box-sizing: border-box;
+  margin-top: 60px;
+  padding-bottom: 80px;
+  padding-right: 20px;
+}
+.headimgcontrol{
+  float: left;
+  box-sizing: border-box;
+  border: 10px solid #340501;
+}
+.imgcontrol{
+  float: left;
+  margin-top: 140px;
+  box-shadow: 5px 5px;
+  box-sizing: border-box;
+}
+main h1{
+  box-sizing: border-box;
+  background-image: url('pictures/Background-4.jpg');
+  margin-right: auto;
+  height: 150px;
+  color: #F2F2F2;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 60px;
+  font-family: "Saira Semi Condensed";
+  font-weight: normal;
+  border-bottom: 10px solid #340501;
+}
