@@ -90,7 +90,7 @@ h3{
 }
 main h1{
   box-sizing: border-box;
-  background-image: url('pictures/Background-4.jpg');
+  background-image: url('../pictures/Background-4.jpg');
   margin-right: auto;
   height: 150px;
   color: #F2F2F2;
@@ -105,11 +105,16 @@ main h1{
 body {
   background-color: #EBE1E1;
 }
-aside ul a {
+aside ul li {
   font-family: "Saira Semi Condensed";
   color: inherit;
   text-decoration: inherit;
   font-size: 30px;
+  transition: all 0.5s;
+}
+aside ul a{
+  color: inherit;
+  text-decoration: inherit;
 }
 aside h1 {
   padding-top: 20px;

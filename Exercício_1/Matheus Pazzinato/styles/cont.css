@@ -26,6 +26,7 @@
   color: white;
   text-decoration: none;
   font-family: "Saira Semi Condensed";
+  transition: background-color 0.5s
 }
 #button:hover{
   background-color: #4DD52F;
