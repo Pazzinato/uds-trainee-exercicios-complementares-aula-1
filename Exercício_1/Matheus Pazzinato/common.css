@@ -1,15 +1,35 @@
-
+/*CSS COMUM À TODAS AS PÁGINAS*/
 .goleft{
   float: left;
 }
 .goright{
   float: right;
 }
-.clrleft{
-  clear: left;
+.diffont{
+  font-family: "Secular One";
+  display: inline-block;
+  font-weight: bold;
+}
+.headimgcontrol{
+  float: left;
+  box-sizing: border-box;
+  border: 10px solid #340501;
+}
+.textcontrol{
+  font-family: "Architects Daughter";
+  font-size: 20px;
+  float: left;
+  width: 300px;
+  margin-left: 100px;
+  margin-right: auto;
+  box-sizing: border-box;
+  margin-top: 60px;
+  padding-bottom: 80px;
+  padding-right: 20px;
 }
 .sidemenubord{
   border-top: 1px solid white;
+  padding: 20px;
 }
 .sidemenu {
   position: absolute;
@@ -21,25 +41,25 @@
   text-decoration: none;
   width: 200px;
   height: 220px;
+  border-right: 8px solid #340501;
+  border-bottom: 8px solid #340501;
+  border-left: 8px solid #340501;
 }
 .botmenubord{
   display: inline-block;
-  font-size: 10px;
-  padding-right: 40px;
+  padding-right: 70px;
   padding-left: 40px;
+  padding-bottom: 40px;
+  padding-top: 10px;
 }
 .botmenu{
-  padding-top: 30px;
   clear: both;
   text-align: center;
-  padding-bottom: 30px;
   background-color: #500501;
   color: white;
-}
-h2 {
-  padding-bottom: 50px;
-  font-weight: bold;
-  font-size: 150%;
+  border-top: 8px solid #340501;
+  border-left: 8px solid #340501;
+  border-right: 8px solid #340501;
 }
 .footer {
   position: fixed;
@@ -50,39 +70,64 @@ h2 {
   background-color: black;
   color: white;
 }
+.inputsize1{
+  width: 600px;
+  margin-bottom: 20px;
+}
+.inputsize2{s
+}
+h2 {
+  padding-bottom: 30px;
+  font-weight: bold;
+  font-size: 160%;
+  text-decoration: underline;
+}
+h3{
+  font-weight: bold;
+  font-size: 130%;
+  width: 300px;
+  padding-bottom: 10px;
+}
+main h1{
+  box-sizing: border-box;
+  background-image: url('pictures/Background-4.jpg');
+  margin-right: auto;
+  height: 150px;
+  color: #F2F2F2;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 60px;
+  font-family: "Saira Semi Condensed";
+  font-weight: normal;
+  border-bottom: 10px solid #340501;
+}
 body {
   background-color: #EBE1E1;
-}
-aside ul li{
-  padding: 20px;
 }
 aside ul a {
   font-family: "Saira Semi Condensed";
   color: inherit;
   text-decoration: inherit;
   font-size: 30px;
-  padding-top: 10px;
 }
 aside h1 {
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 35px;
 }
-footer ul a:hover {
-  -webkit-transform: scale(1.3);
-  -ms-transform: scale(1.3);
-  transform: scale(1.3);
-}
 footer ul a{
   font-family: "Saira Semi Condensed";
   text-decoration: none;
   color: inherit;
   font-size: 25px;
-  padding-bottom: 50px;
-  marging-right: 70px;
-  marging-left: 30px;
 }
 aside ul li:hover {
   background-color: #240100;
   color: #FE9894;
+}
+footer ul li:hover{
+  color: #FE9894;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
 }
